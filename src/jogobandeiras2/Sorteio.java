@@ -11,6 +11,7 @@ public class Sorteio {
     private String continente;
     private String cores[];
     private boolean estrela;
+    private String link;
 
     public Sorteio(int rand) {
         System.out.println(rand);
@@ -31,7 +32,7 @@ public class Sorteio {
                 this.mGreenwich = "Oeste";
                 this.estrela = true;
                 break;
-            
+
             case 1:
                 System.out.println("Brasil");
                 this.pais = "Brasil";
@@ -48,7 +49,7 @@ public class Sorteio {
                 this.mGreenwich = "Oeste";
                 this.estrela = true;
                 break;
-                
+
             case 2:
                 System.out.println("Colômbia");
                 this.pais = "Colômbia";
@@ -64,8 +65,8 @@ public class Sorteio {
                 this.mGreenwich = "Oeste";
                 this.estrela = false;
                 break;
-                
-            case 3: 
+
+            case 3:
                 System.out.println("Uruguai");
                 this.pais = "Uruguai";
                 this.numCores = 3;
@@ -80,8 +81,8 @@ public class Sorteio {
                 this.mGreenwich = "Oeste";
                 this.estrela = true;
                 break;
-                
-            case 4: 
+
+            case 4:
                 System.out.println("Bolívia");
                 this.pais = "Bolívia";
                 this.numCores = 4;
@@ -97,8 +98,8 @@ public class Sorteio {
                 this.mGreenwich = "Oeste";
                 this.estrela = false;
                 break;
-                
-            case 5: 
+
+            case 5:
                 System.out.println("Chile");
                 this.pais = "Chile";
                 this.numCores = 3;
@@ -112,9 +113,9 @@ public class Sorteio {
                 this.hEquador = "Abaixo";
                 this.mGreenwich = "Oeste";
                 this.estrela = true;
-                break;    
-                
-            case 6: 
+                break;
+
+            case 6:
                 System.out.println("Equador");
                 this.pais = "Equador";
                 this.numCores = 4;
@@ -129,9 +130,9 @@ public class Sorteio {
                 this.hEquador = "Cortado";
                 this.mGreenwich = "Oeste";
                 this.estrela = false;
-                break;  
-                
-            case 7: 
+                break;
+
+            case 7:
                 System.out.println("Paraguai");
                 this.pais = "Paraguai";
                 this.numCores = 4;
@@ -146,9 +147,9 @@ public class Sorteio {
                 this.hEquador = "Abaixo";
                 this.mGreenwich = "Oeste";
                 this.estrela = true;
-                break; 
-                
-            case 8: 
+                break;
+
+            case 8:
                 System.out.println("Peru");
                 this.pais = "Peru";
                 this.numCores = 3;
@@ -162,9 +163,9 @@ public class Sorteio {
                 this.hEquador = "Abaixo";
                 this.mGreenwich = "Oeste";
                 this.estrela = false;
-                break; 
-                
-            case 9: 
+                break;
+
+            case 9:
                 System.out.println("Venezuela");
                 this.pais = "Venezuela";
                 this.numCores = 4;
@@ -179,9 +180,9 @@ public class Sorteio {
                 this.hEquador = "Acima";
                 this.mGreenwich = "Oeste";
                 this.estrela = true;
-                break; 
-                
-            case 10: 
+                break;
+
+            case 10:
                 System.out.println("Guiana");
                 this.pais = "Guiana";
                 this.numCores = 5;
@@ -197,9 +198,9 @@ public class Sorteio {
                 this.hEquador = "Acima";
                 this.mGreenwich = "Oeste";
                 this.estrela = false;
-                break; 
-                
-            case 11: 
+                break;
+
+            case 11:
                 System.out.println("Suriname");
                 this.pais = "Suriname";
                 this.numCores = 4;
@@ -214,10 +215,10 @@ public class Sorteio {
                 this.hEquador = "Acima";
                 this.mGreenwich = "Oeste";
                 this.estrela = true;
-                break; 
-            
+                break;
+
             // Países da América do Norte (12-14)    
-            case 12: 
+            case 12:
                 System.out.println("Canadá");
                 this.pais = "Canadá";
                 this.numCores = 2;
@@ -230,9 +231,9 @@ public class Sorteio {
                 this.hEquador = "Acima";
                 this.mGreenwich = "Oeste";
                 this.estrela = false;
-                break; 
-                
-            case 13: 
+                break;
+
+            case 13:
                 System.out.println("Estados Unidos");
                 this.pais = "Estados Unidos";
                 this.numCores = 3;
@@ -246,9 +247,9 @@ public class Sorteio {
                 this.hEquador = "Acima";
                 this.mGreenwich = "Oeste";
                 this.estrela = true;
-                break; 
-                
-            case 14: 
+                break;
+
+            case 14:
                 System.out.println("México");
                 this.pais = "México";
                 this.numCores = 4;
@@ -263,10 +264,10 @@ public class Sorteio {
                 this.hEquador = "Acima";
                 this.mGreenwich = "Oeste";
                 this.estrela = false;
-                break; 
-            
+                break;
+
             // Países da América Central (15-27)   
-            case 15: 
+            case 15:
                 System.out.println("Bahamas");
                 this.pais = "Bahamas";
                 this.numCores = 3;
@@ -280,9 +281,9 @@ public class Sorteio {
                 this.hEquador = "Acima";
                 this.mGreenwich = "Oeste";
                 this.estrela = false;
-                break; 
-                
-            case 16: 
+                break;
+
+            case 16:
                 System.out.println("Belize");
                 this.pais = "Belize";
                 this.numCores = 5;
@@ -298,9 +299,9 @@ public class Sorteio {
                 this.hEquador = "Acima";
                 this.mGreenwich = "Oeste";
                 this.estrela = false;
-                break; 
-                
-            case 17: 
+                break;
+
+            case 17:
                 System.out.println("Costa Rica");
                 this.pais = "Costa Rica";
                 this.numCores = 4;
@@ -315,9 +316,9 @@ public class Sorteio {
                 this.hEquador = "Acima";
                 this.mGreenwich = "Oeste";
                 this.estrela = false;
-                break; 
-                
-            case 18: 
+                break;
+
+            case 18:
                 System.out.println("Cuba");
                 this.pais = "Cuba";
                 this.numCores = 3;
@@ -331,9 +332,9 @@ public class Sorteio {
                 this.hEquador = "Acima";
                 this.mGreenwich = "Oeste";
                 this.estrela = true;
-                break; 
-                
-            case 19: 
+                break;
+
+            case 19:
                 System.out.println("El Salvador");
                 this.pais = "El Salvador";
                 this.numCores = 3;
@@ -347,9 +348,9 @@ public class Sorteio {
                 this.hEquador = "Acima";
                 this.mGreenwich = "Oeste";
                 this.estrela = false;
-                break; 
-                
-            case 20: 
+                break;
+
+            case 20:
                 System.out.println("Guatemala");
                 this.pais = "Guatemala";
                 this.numCores = 3;
@@ -363,9 +364,9 @@ public class Sorteio {
                 this.hEquador = "Acima";
                 this.mGreenwich = "Oeste";
                 this.estrela = false;
-                break; 
-                
-            case 21: 
+                break;
+
+            case 21:
                 System.out.println("Haiti");
                 this.pais = "Haiti";
                 this.numCores = 3;
@@ -379,9 +380,9 @@ public class Sorteio {
                 this.hEquador = "Acima";
                 this.mGreenwich = "Oeste";
                 this.estrela = false;
-                break; 
-                
-            case 22: 
+                break;
+
+            case 22:
                 System.out.println("Honduras");
                 this.pais = "Honduras";
                 this.numCores = 2;
@@ -395,8 +396,8 @@ public class Sorteio {
                 this.mGreenwich = "Oeste";
                 this.estrela = true;
                 break;
-                
-            case 23: 
+
+            case 23:
                 System.out.println("Jamaica");
                 this.pais = "Jamaica";
                 this.numCores = 3;
@@ -410,9 +411,9 @@ public class Sorteio {
                 this.hEquador = "Acima";
                 this.mGreenwich = "Oeste";
                 this.estrela = false;
-                break; 
-                
-            case 24: 
+                break;
+
+            case 24:
                 System.out.println("Nicarágua");
                 this.pais = "Nicarágua";
                 this.numCores = 3;
@@ -426,9 +427,9 @@ public class Sorteio {
                 this.hEquador = "Acima";
                 this.mGreenwich = "Oeste";
                 this.estrela = false;
-                break; 
-                
-            case 25: 
+                break;
+
+            case 25:
                 System.out.println("Panamá");
                 this.pais = "Panamá";
                 this.numCores = 3;
@@ -442,9 +443,9 @@ public class Sorteio {
                 this.hEquador = "Acima";
                 this.mGreenwich = "Oeste";
                 this.estrela = true;
-                break; 
-                
-            case 26: 
+                break;
+
+            case 26:
                 System.out.println("República Dominicana");
                 this.pais = "República Dominicana";
                 this.numCores = 4;
@@ -459,9 +460,9 @@ public class Sorteio {
                 this.hEquador = "Acima";
                 this.mGreenwich = "Oeste";
                 this.estrela = false;
-                break; 
-              
-            case 27: 
+                break;
+
+            case 27:
                 System.out.println("Trinidad e Tobago");
                 this.pais = "Trinidad e Tobago";
                 this.numCores = 3;
@@ -475,10 +476,10 @@ public class Sorteio {
                 this.hEquador = "Acima";
                 this.mGreenwich = "Oeste";
                 this.estrela = false;
-                break; 
-            
+                break;
+
             // Países da Europa (28-69)    
-            case 28: 
+            case 28:
                 System.out.println("Bélgica");
                 this.pais = "Bélgica";
                 this.numCores = 3;
@@ -492,9 +493,9 @@ public class Sorteio {
                 this.hEquador = "Acima";
                 this.mGreenwich = "Leste";
                 this.estrela = false;
-                break; 
-                
-            case 29: 
+                break;
+
+            case 29:
                 System.out.println("Escócia");
                 this.pais = "Escócia";
                 this.numCores = 2;
@@ -507,9 +508,9 @@ public class Sorteio {
                 this.hEquador = "Acima";
                 this.mGreenwich = "Oeste";
                 this.estrela = false;
-                break; 
-                
-            case 30: 
+                break;
+
+            case 30:
                 System.out.println("Espanha");
                 this.pais = "Espanha";
                 this.numCores = 3;
@@ -523,9 +524,9 @@ public class Sorteio {
                 this.hEquador = "Acima";
                 this.mGreenwich = "Cortado";
                 this.estrela = false;
-                break; 
-                
-            case 31: 
+                break;
+
+            case 31:
                 System.out.println("França");
                 this.pais = "França";
                 this.numCores = 3;
@@ -539,9 +540,9 @@ public class Sorteio {
                 this.hEquador = "Acima";
                 this.mGreenwich = "Cortado";
                 this.estrela = false;
-                break; 
-                
-            case 32: 
+                break;
+
+            case 32:
                 System.out.println("Holanda");
                 this.pais = "Holanda";
                 this.numCores = 3;
@@ -555,9 +556,9 @@ public class Sorteio {
                 this.hEquador = "Acima";
                 this.mGreenwich = "Leste";
                 this.estrela = false;
-                break;      
-                
-            case 33: 
+                break;
+
+            case 33:
                 System.out.println("Inglaterra");
                 this.pais = "Inglaterra";
                 this.numCores = 2;
@@ -570,9 +571,9 @@ public class Sorteio {
                 this.hEquador = "Acima";
                 this.mGreenwich = "Cortado";
                 this.estrela = false;
-                break; 
-                
-            case 34: 
+                break;
+
+            case 34:
                 System.out.println("Irlanda");
                 this.pais = "Irlanda";
                 this.numCores = 3;
@@ -586,9 +587,9 @@ public class Sorteio {
                 this.hEquador = "Acima";
                 this.mGreenwich = "Oeste";
                 this.estrela = false;
-                break; 
-                
-            case 35: 
+                break;
+
+            case 35:
                 System.out.println("Irlanda do Norte");
                 this.pais = "Irlanda do Norte";
                 this.numCores = 3;
@@ -602,9 +603,9 @@ public class Sorteio {
                 this.hEquador = "Acima";
                 this.mGreenwich = "Oeste";
                 this.estrela = false;
-                break; 
-                
-            case 36: 
+                break;
+
+            case 36:
                 System.out.println("Islândia");
                 this.pais = "Islândia";
                 this.numCores = 3;
@@ -618,9 +619,9 @@ public class Sorteio {
                 this.hEquador = "Acima";
                 this.mGreenwich = "Oeste";
                 this.estrela = false;
-                break; 
-                
-            case 37: 
+                break;
+
+            case 37:
                 System.out.println("País de Gales");
                 this.pais = "País de Gales";
                 this.numCores = 3;
@@ -634,9 +635,9 @@ public class Sorteio {
                 this.hEquador = "Acima";
                 this.mGreenwich = "Oeste";
                 this.estrela = false;
-                break; 
-                
-            case 38: 
+                break;
+
+            case 38:
                 System.out.println("Portugal");
                 this.pais = "Portugal";
                 this.numCores = 4;
@@ -651,9 +652,9 @@ public class Sorteio {
                 this.hEquador = "Acima";
                 this.mGreenwich = "Oeste";
                 this.estrela = false;
-                break; 
-                
-            case 39: 
+                break;
+
+            case 39:
                 System.out.println("Alemanha");
                 this.pais = "Alemanha";
                 this.numCores = 3;
@@ -667,9 +668,9 @@ public class Sorteio {
                 this.hEquador = "Acima";
                 this.mGreenwich = "Leste";
                 this.estrela = false;
-                break; 
-                
-            case 40: 
+                break;
+
+            case 40:
                 System.out.println("Áustria");
                 this.pais = "Áustria";
                 this.numCores = 2;
@@ -682,9 +683,9 @@ public class Sorteio {
                 this.hEquador = "Acima";
                 this.mGreenwich = "Leste";
                 this.estrela = false;
-                break; 
-                
-            case 41: 
+                break;
+
+            case 41:
                 System.out.println("Dinamarca");
                 this.pais = "Dinamarca";
                 this.numCores = 2;
@@ -697,9 +698,9 @@ public class Sorteio {
                 this.hEquador = "Acima";
                 this.mGreenwich = "Leste";
                 this.estrela = false;
-                break; 
-                
-            case 42: 
+                break;
+
+            case 42:
                 System.out.println("Finlândia");
                 this.pais = "Finlândia";
                 this.numCores = 2;
@@ -712,9 +713,9 @@ public class Sorteio {
                 this.hEquador = "Acima";
                 this.mGreenwich = "Leste";
                 this.estrela = false;
-                break; 
-                
-            case 43: 
+                break;
+
+            case 43:
                 System.out.println("Itália");
                 this.pais = "Itália";
                 this.numCores = 3;
@@ -728,9 +729,9 @@ public class Sorteio {
                 this.hEquador = "Acima";
                 this.mGreenwich = "Leste";
                 this.estrela = false;
-                break; 
-                
-            case 44: 
+                break;
+
+            case 44:
                 System.out.println("Luxemburgo");
                 this.pais = "Luxemburgo";
                 this.numCores = 3;
@@ -744,9 +745,9 @@ public class Sorteio {
                 this.hEquador = "Acima";
                 this.mGreenwich = "Leste";
                 this.estrela = false;
-                break; 
-                
-            case 45: 
+                break;
+
+            case 45:
                 System.out.println("Noruega");
                 this.pais = "Noruega";
                 this.numCores = 3;
@@ -760,9 +761,9 @@ public class Sorteio {
                 this.hEquador = "Acima";
                 this.mGreenwich = "Leste";
                 this.estrela = false;
-                break; 
-                
-            case 46: 
+                break;
+
+            case 46:
                 System.out.println("Suécia");
                 this.pais = "Suécia";
                 this.numCores = 2;
@@ -775,9 +776,9 @@ public class Sorteio {
                 this.hEquador = "Acima";
                 this.mGreenwich = "Leste";
                 this.estrela = false;
-                break; 
-                
-            case 47: 
+                break;
+
+            case 47:
                 System.out.println("Suíça");
                 this.pais = "Suíça";
                 this.numCores = 2;
@@ -790,9 +791,9 @@ public class Sorteio {
                 this.hEquador = "Acima";
                 this.mGreenwich = "Leste";
                 this.estrela = false;
-                break; 
-                
-            case 48: 
+                break;
+
+            case 48:
                 System.out.println("Bósnia-Herzegovina");
                 this.pais = "Bósnia-Herzegovina";
                 this.numCores = 3;
@@ -807,8 +808,8 @@ public class Sorteio {
                 this.mGreenwich = "Leste";
                 this.estrela = true;
                 break;
-                
-            case 49: 
+
+            case 49:
                 System.out.println("Croácia");
                 this.pais = "Croácia";
                 this.numCores = 4;
@@ -824,8 +825,8 @@ public class Sorteio {
                 this.mGreenwich = "Leste";
                 this.estrela = false;
                 break;
-                
-            case 50: 
+
+            case 50:
                 System.out.println("Eslováquia");
                 this.pais = "Eslováquia";
                 this.numCores = 4;
@@ -841,8 +842,8 @@ public class Sorteio {
                 this.mGreenwich = "Leste";
                 this.estrela = false;
                 break;
-                
-            case 51: 
+
+            case 51:
                 System.out.println("Eslovênia");
                 this.pais = "Eslovênia";
                 this.numCores = 4;
@@ -858,8 +859,8 @@ public class Sorteio {
                 this.mGreenwich = "Leste";
                 this.estrela = false;
                 break;
-                
-            case 52: 
+
+            case 52:
                 System.out.println("Hungria");
                 this.pais = "Hungria";
                 this.numCores = 3;
@@ -874,8 +875,8 @@ public class Sorteio {
                 this.mGreenwich = "Leste";
                 this.estrela = false;
                 break;
-                
-            case 53: 
+
+            case 53:
                 System.out.println("Macedônia");
                 this.pais = "Macedônia";
                 this.numCores = 2;
@@ -889,8 +890,8 @@ public class Sorteio {
                 this.mGreenwich = "Leste";
                 this.estrela = false;
                 break;
-                
-            case 54: 
+
+            case 54:
                 System.out.println("Montenegro");
                 this.pais = "Montenegro";
                 this.numCores = 3;
@@ -905,8 +906,8 @@ public class Sorteio {
                 this.mGreenwich = "Leste";
                 this.estrela = false;
                 break;
-                
-            case 55: 
+
+            case 55:
                 System.out.println("Polônia");
                 this.pais = "Polônia";
                 this.numCores = 2;
@@ -920,9 +921,9 @@ public class Sorteio {
                 this.mGreenwich = "Leste";
                 this.estrela = false;
                 break;
-            
+
             // Rússia pertence à Eurásia
-            case 56: 
+            case 56:
                 System.out.println("Rússia");
                 this.pais = "Rússia";
                 this.numCores = 3;
@@ -937,8 +938,8 @@ public class Sorteio {
                 this.mGreenwich = "Leste";
                 this.estrela = false;
                 break;
-                
-            case 57: 
+
+            case 57:
                 System.out.println("República Tcheca");
                 this.pais = "República Tcheca";
                 this.numCores = 3;
@@ -953,8 +954,8 @@ public class Sorteio {
                 this.mGreenwich = "Leste";
                 this.estrela = false;
                 break;
-                
-            case 58: 
+
+            case 58:
                 System.out.println("Sérvia");
                 this.pais = "Sérvia";
                 this.numCores = 4;
@@ -970,8 +971,8 @@ public class Sorteio {
                 this.mGreenwich = "Leste";
                 this.estrela = false;
                 break;
-                
-            case 59: 
+
+            case 59:
                 System.out.println("Albânia");
                 this.pais = "Albânia";
                 this.numCores = 2;
@@ -982,10 +983,11 @@ public class Sorteio {
                 this.ganhouCopa = false;
                 this.continente = "Europa";
                 this.hEquador = "Acima";
-                this.mGreenwich = "Leste";this.estrela = false;
+                this.mGreenwich = "Leste";
+                this.estrela = false;
                 break;
-                
-            case 60: 
+
+            case 60:
                 System.out.println("Belarus");
                 this.pais = "Belarus";
                 this.numCores = 3;
@@ -1000,8 +1002,8 @@ public class Sorteio {
                 this.mGreenwich = "Leste";
                 this.estrela = false;
                 break;
-                
-            case 61: 
+
+            case 61:
                 System.out.println("Bulgária");
                 this.pais = "Bulgária";
                 this.numCores = 3;
@@ -1016,8 +1018,8 @@ public class Sorteio {
                 this.mGreenwich = "Leste";
                 this.estrela = false;
                 break;
-                
-            case 62: 
+
+            case 62:
                 System.out.println("Estônia");
                 this.pais = "Estônia";
                 this.numCores = 3;
@@ -1032,8 +1034,8 @@ public class Sorteio {
                 this.mGreenwich = "Leste";
                 this.estrela = false;
                 break;
-                
-            case 63: 
+
+            case 63:
                 System.out.println("Grécia");
                 this.pais = "Grécia";
                 this.numCores = 2;
@@ -1047,8 +1049,8 @@ public class Sorteio {
                 this.mGreenwich = "Leste";
                 this.estrela = false;
                 break;
-                
-            case 64: 
+
+            case 64:
                 System.out.println("Ucrânia");
                 this.pais = "Ucrânia";
                 this.numCores = 2;
@@ -1062,8 +1064,8 @@ public class Sorteio {
                 this.mGreenwich = "Leste";
                 this.estrela = false;
                 break;
-                
-            case 65: 
+
+            case 65:
                 System.out.println("Letônia");
                 this.pais = "Letônia";
                 this.numCores = 2;
@@ -1077,8 +1079,8 @@ public class Sorteio {
                 this.mGreenwich = "Leste";
                 this.estrela = false;
                 break;
-                
-            case 66: 
+
+            case 66:
                 System.out.println("Lituânia");
                 this.pais = "Lituânia";
                 this.numCores = 3;
@@ -1093,8 +1095,8 @@ public class Sorteio {
                 this.mGreenwich = "Leste";
                 this.estrela = false;
                 break;
-                
-            case 67: 
+
+            case 67:
                 System.out.println("Malta");
                 this.pais = "Malta";
                 this.numCores = 3;
@@ -1109,8 +1111,8 @@ public class Sorteio {
                 this.mGreenwich = "Leste";
                 this.estrela = false;
                 break;
-                
-            case 68: 
+
+            case 68:
                 System.out.println("Moldávia");
                 this.pais = "Moldávia";
                 this.numCores = 4;
@@ -1126,8 +1128,8 @@ public class Sorteio {
                 this.mGreenwich = "Leste";
                 this.estrela = false;
                 break;
-                
-            case 69: 
+
+            case 69:
                 System.out.println("Romênia");
                 this.pais = "Romênia";
                 this.numCores = 3;
@@ -1142,9 +1144,9 @@ public class Sorteio {
                 this.mGreenwich = "Leste";
                 this.estrela = false;
                 break;
-            
+
             // Países da Eurásia (70-75)
-            case 70: 
+            case 70:
                 System.out.println("Armênia");
                 this.pais = "Armênia";
                 this.numCores = 3;
@@ -1159,8 +1161,8 @@ public class Sorteio {
                 this.mGreenwich = "Leste";
                 this.estrela = false;
                 break;
-                
-            case 71: 
+
+            case 71:
                 System.out.println("Azerbaijão");
                 this.pais = "Azerbaijão";
                 this.numCores = 4;
@@ -1176,8 +1178,8 @@ public class Sorteio {
                 this.mGreenwich = "Leste";
                 this.estrela = true;
                 break;
-                
-            case 72: 
+
+            case 72:
                 System.out.println("Casaquistão");
                 this.pais = "Casaquistão";
                 this.numCores = 2;
@@ -1191,8 +1193,8 @@ public class Sorteio {
                 this.mGreenwich = "Leste";
                 this.estrela = true;
                 break;
-                
-            case 73: 
+
+            case 73:
                 System.out.println("Chipre");
                 this.pais = "Chipre";
                 this.numCores = 3;
@@ -1207,8 +1209,8 @@ public class Sorteio {
                 this.mGreenwich = "Leste";
                 this.estrela = false;
                 break;
-                
-            case 74: 
+
+            case 74:
                 System.out.println("Geórgia");
                 this.pais = "Geórgia";
                 this.numCores = 2;
@@ -1222,8 +1224,8 @@ public class Sorteio {
                 this.mGreenwich = "Leste";
                 this.estrela = false;
                 break;
-                
-            case 75: 
+
+            case 75:
                 System.out.println("Turquia");
                 this.pais = "Turquia";
                 this.numCores = 2;
@@ -1237,9 +1239,9 @@ public class Sorteio {
                 this.mGreenwich = "Leste";
                 this.estrela = true;
                 break;
-            
+
             // Países da Ásia (76-115)    
-            case 76: 
+            case 76:
                 System.out.println("Arábia Saudita");
                 this.pais = "Arábia Saudita";
                 this.numCores = 2;
@@ -1253,8 +1255,8 @@ public class Sorteio {
                 this.mGreenwich = "Leste";
                 this.estrela = false;
                 break;
-                
-            case 77: 
+
+            case 77:
                 System.out.println("Bahrein");
                 this.pais = "Bahrein";
                 this.numCores = 2;
@@ -1268,8 +1270,8 @@ public class Sorteio {
                 this.mGreenwich = "Leste";
                 this.estrela = false;
                 break;
-                
-            case 78: 
+
+            case 78:
                 System.out.println("Catar");
                 this.pais = "Catar";
                 this.numCores = 2;
@@ -1283,8 +1285,8 @@ public class Sorteio {
                 this.mGreenwich = "Leste";
                 this.estrela = false;
                 break;
-            
-            case 79: 
+
+            case 79:
                 System.out.println("Emirados Árabes");
                 this.pais = "Emirados Árabes";
                 this.numCores = 4;
@@ -1300,8 +1302,8 @@ public class Sorteio {
                 this.mGreenwich = "Leste";
                 this.estrela = false;
                 break;
-                
-            case 80: 
+
+            case 80:
                 System.out.println("Iêmen");
                 this.pais = "Iêmen";
                 this.numCores = 3;
@@ -1316,8 +1318,8 @@ public class Sorteio {
                 this.mGreenwich = "Leste";
                 this.estrela = false;
                 break;
-                
-            case 81: 
+
+            case 81:
                 System.out.println("Iraque");
                 this.pais = "Iraque";
                 this.numCores = 4;
@@ -1333,8 +1335,8 @@ public class Sorteio {
                 this.mGreenwich = "Leste";
                 this.estrela = false;
                 break;
-                
-            case 82: 
+
+            case 82:
                 System.out.println("Israel");
                 this.pais = "Israel";
                 this.numCores = 2;
@@ -1348,8 +1350,8 @@ public class Sorteio {
                 this.mGreenwich = "Leste";
                 this.estrela = true;
                 break;
-                
-            case 83: 
+
+            case 83:
                 System.out.println("Jordânia");
                 this.pais = "Jordânia";
                 this.numCores = 4;
@@ -1365,8 +1367,8 @@ public class Sorteio {
                 this.mGreenwich = "Leste";
                 this.estrela = true;
                 break;
-                
-            case 84: 
+
+            case 84:
                 System.out.println("Kuwait");
                 this.pais = "Kuwait";
                 this.numCores = 4;
@@ -1382,8 +1384,8 @@ public class Sorteio {
                 this.mGreenwich = "Leste";
                 this.estrela = false;
                 break;
-                
-            case 85: 
+
+            case 85:
                 System.out.println("Líbano");
                 this.pais = "Líbano";
                 this.numCores = 3;
@@ -1398,8 +1400,8 @@ public class Sorteio {
                 this.mGreenwich = "Leste";
                 this.estrela = false;
                 break;
-                
-            case 86: 
+
+            case 86:
                 System.out.println("Omã");
                 this.pais = "Omã";
                 this.numCores = 3;
@@ -1414,8 +1416,8 @@ public class Sorteio {
                 this.mGreenwich = "Leste";
                 this.estrela = false;
                 break;
-                
-            case 87: 
+
+            case 87:
                 System.out.println("Síria");
                 this.pais = "Síria";
                 this.numCores = 4;
@@ -1431,8 +1433,8 @@ public class Sorteio {
                 this.mGreenwich = "Leste";
                 this.estrela = true;
                 break;
-                
-            case 88: 
+
+            case 88:
                 System.out.println("Afeganistão");
                 this.pais = "Afeganistão";
                 this.numCores = 4;
@@ -1448,8 +1450,8 @@ public class Sorteio {
                 this.mGreenwich = "Leste";
                 this.estrela = false;
                 break;
-                
-            case 89: 
+
+            case 89:
                 System.out.println("Índia");
                 this.pais = "Índia";
                 this.numCores = 4;
@@ -1465,8 +1467,8 @@ public class Sorteio {
                 this.mGreenwich = "Leste";
                 this.estrela = false;
                 break;
-                
-            case 90: 
+
+            case 90:
                 System.out.println("Irã");
                 this.pais = "Irã";
                 this.numCores = 3;
@@ -1481,8 +1483,8 @@ public class Sorteio {
                 this.mGreenwich = "Leste";
                 this.estrela = false;
                 break;
-                
-            case 91: 
+
+            case 91:
                 System.out.println("Maldivas");
                 this.pais = "Maldivas";
                 this.numCores = 3;
@@ -1497,8 +1499,8 @@ public class Sorteio {
                 this.mGreenwich = "Leste";
                 this.estrela = false;
                 break;
-                
-            case 92: 
+
+            case 92:
                 System.out.println("Paquistão");
                 this.pais = "Paquistão";
                 this.numCores = 2;
@@ -1512,8 +1514,8 @@ public class Sorteio {
                 this.mGreenwich = "Leste";
                 this.estrela = true;
                 break;
-                
-            case 93: 
+
+            case 93:
                 System.out.println("Quirguistão");
                 this.pais = "Quirguistão";
                 this.numCores = 2;
@@ -1527,8 +1529,8 @@ public class Sorteio {
                 this.mGreenwich = "Leste";
                 this.estrela = true;
                 break;
-                
-            case 94: 
+
+            case 94:
                 System.out.println("Sri Lanka");
                 this.pais = "Sri Lanka";
                 this.numCores = 4;
@@ -1544,8 +1546,8 @@ public class Sorteio {
                 this.mGreenwich = "Leste";
                 this.estrela = false;
                 break;
-                
-            case 95: 
+
+            case 95:
                 System.out.println("Tajiquistão");
                 this.pais = "Tajiquistão";
                 this.numCores = 4;
@@ -1561,8 +1563,8 @@ public class Sorteio {
                 this.mGreenwich = "Leste";
                 this.estrela = true;
                 break;
-                
-            case 96: 
+
+            case 96:
                 System.out.println("Turcomenistão");
                 this.pais = "Turcomenistão";
                 this.numCores = 4;
@@ -1578,8 +1580,8 @@ public class Sorteio {
                 this.mGreenwich = "Leste";
                 this.estrela = true;
                 break;
-                
-            case 97: 
+
+            case 97:
                 System.out.println("Usbequistão");
                 this.pais = "Usbequistão";
                 this.numCores = 4;
@@ -1595,8 +1597,8 @@ public class Sorteio {
                 this.mGreenwich = "Leste";
                 this.estrela = true;
                 break;
-                
-            case 98: 
+
+            case 98:
                 System.out.println("Bangladesh");
                 this.pais = "Bangladesh";
                 this.numCores = 2;
@@ -1610,8 +1612,8 @@ public class Sorteio {
                 this.mGreenwich = "Leste";
                 this.estrela = false;
                 break;
-                
-            case 99: 
+
+            case 99:
                 System.out.println("Brunei");
                 this.pais = "Brunei";
                 this.numCores = 4;
@@ -1627,8 +1629,8 @@ public class Sorteio {
                 this.mGreenwich = "Leste";
                 this.estrela = false;
                 break;
-                
-            case 100: 
+
+            case 100:
                 System.out.println("Butão");
                 this.pais = "Butão";
                 this.numCores = 3;
@@ -1643,8 +1645,8 @@ public class Sorteio {
                 this.mGreenwich = "Leste";
                 this.estrela = false;
                 break;
-                
-            case 101: 
+
+            case 101:
                 System.out.println("Camboja");
                 this.pais = "Camboja";
                 this.numCores = 3;
@@ -1659,8 +1661,8 @@ public class Sorteio {
                 this.mGreenwich = "Leste";
                 this.estrela = false;
                 break;
-                
-            case 102: 
+
+            case 102:
                 System.out.println("China");
                 this.pais = "China";
                 this.numCores = 2;
@@ -1674,8 +1676,8 @@ public class Sorteio {
                 this.mGreenwich = "Leste";
                 this.estrela = true;
                 break;
-                
-            case 103: 
+
+            case 103:
                 System.out.println("Cingapura");
                 this.pais = "Cingapura";
                 this.numCores = 2;
@@ -1689,8 +1691,8 @@ public class Sorteio {
                 this.mGreenwich = "Leste";
                 this.estrela = true;
                 break;
-                
-            case 104: 
+
+            case 104:
                 System.out.println("Coréia do Norte");
                 this.pais = "Coréia do Norte";
                 this.numCores = 3;
@@ -1705,8 +1707,8 @@ public class Sorteio {
                 this.mGreenwich = "Leste";
                 this.estrela = true;
                 break;
-                
-            case 105: 
+
+            case 105:
                 System.out.println("Coréia do Sul");
                 this.pais = "Coréia do Sul";
                 this.numCores = 4;
@@ -1722,8 +1724,8 @@ public class Sorteio {
                 this.mGreenwich = "Leste";
                 this.estrela = false;
                 break;
-                
-            case 106: 
+
+            case 106:
                 System.out.println("Indonésia");
                 this.pais = "Indonésia";
                 this.numCores = 2;
@@ -1737,8 +1739,8 @@ public class Sorteio {
                 this.mGreenwich = "Leste";
                 this.estrela = false;
                 break;
-                
-            case 107: 
+
+            case 107:
                 System.out.println("Japão");
                 this.pais = "Japão";
                 this.numCores = 2;
@@ -1752,8 +1754,8 @@ public class Sorteio {
                 this.mGreenwich = "Leste";
                 this.estrela = false;
                 break;
-                
-            case 108: 
+
+            case 108:
                 System.out.println("Laos");
                 this.pais = "Laos";
                 this.numCores = 3;
@@ -1768,8 +1770,8 @@ public class Sorteio {
                 this.mGreenwich = "Leste";
                 this.estrela = false;
                 break;
-                
-            case 109: 
+
+            case 109:
                 System.out.println("Malásia");
                 this.pais = "Malásia";
                 this.numCores = 4;
@@ -1785,8 +1787,8 @@ public class Sorteio {
                 this.mGreenwich = "Leste";
                 this.estrela = true;
                 break;
-                
-            case 110: 
+
+            case 110:
                 System.out.println("Mongólia");
                 this.pais = "Mongólia";
                 this.numCores = 3;
@@ -1801,8 +1803,8 @@ public class Sorteio {
                 this.mGreenwich = "Leste";
                 this.estrela = false;
                 break;
-                
-            case 111: 
+
+            case 111:
                 System.out.println("Myanmar");
                 this.pais = "Myanmar";
                 this.numCores = 3;
@@ -1817,8 +1819,8 @@ public class Sorteio {
                 this.mGreenwich = "Leste";
                 this.estrela = true;
                 break;
-                
-            case 112: 
+
+            case 112:
                 System.out.println("Nepal");
                 this.pais = "Nepal";
                 this.numCores = 3;
@@ -1833,8 +1835,8 @@ public class Sorteio {
                 this.mGreenwich = "Leste";
                 this.estrela = true;
                 break;
-                
-            case 113: 
+
+            case 113:
                 System.out.println("Tailândia");
                 this.pais = "Tailândia";
                 this.numCores = 3;
@@ -1849,8 +1851,8 @@ public class Sorteio {
                 this.mGreenwich = "Leste";
                 this.estrela = false;
                 break;
-                
-            case 114: 
+
+            case 114:
                 System.out.println("Taiwan");
                 this.pais = "Taiwan";
                 this.numCores = 3;
@@ -1865,8 +1867,8 @@ public class Sorteio {
                 this.mGreenwich = "Leste";
                 this.estrela = true;
                 break;
-                
-            case 115: 
+
+            case 115:
                 System.out.println("Vietnã");
                 this.pais = "Vietnã";
                 this.numCores = 2;
@@ -1880,9 +1882,9 @@ public class Sorteio {
                 this.mGreenwich = "Leste";
                 this.estrela = true;
                 break;
-            
+
             // Países da Oceania (116-129)
-            case 116: 
+            case 116:
                 System.out.println("Austrália");
                 this.pais = "Austrália";
                 this.numCores = 3;
@@ -1897,8 +1899,8 @@ public class Sorteio {
                 this.mGreenwich = "Leste";
                 this.estrela = true;
                 break;
-                
-            case 117: 
+
+            case 117:
                 System.out.println("Fiji");
                 this.pais = "Fiji";
                 this.numCores = 4;
@@ -1914,8 +1916,8 @@ public class Sorteio {
                 this.mGreenwich = "Leste";
                 this.estrela = false;
                 break;
-                
-            case 118: 
+
+            case 118:
                 System.out.println("Ilhas Marshall");
                 this.pais = "Ilhas Marshall";
                 this.numCores = 3;
@@ -1930,8 +1932,8 @@ public class Sorteio {
                 this.mGreenwich = "Leste";
                 this.estrela = true;
                 break;
-                
-            case 119: 
+
+            case 119:
                 System.out.println("Ilhas Salomão");
                 this.pais = "Ilhas Salomão";
                 this.numCores = 4;
@@ -1947,8 +1949,8 @@ public class Sorteio {
                 this.mGreenwich = "Leste";
                 this.estrela = true;
                 break;
-                
-            case 120: 
+
+            case 120:
                 System.out.println("Kiribati");
                 this.pais = "Kiribati";
                 this.numCores = 4;
@@ -1964,8 +1966,8 @@ public class Sorteio {
                 this.mGreenwich = "Leste";
                 this.estrela = true;
                 break;
-                
-            case 121: 
+
+            case 121:
                 System.out.println("Micronésia");
                 this.pais = "Micronésia";
                 this.numCores = 2;
@@ -1979,8 +1981,8 @@ public class Sorteio {
                 this.mGreenwich = "Leste";
                 this.estrela = true;
                 break;
-                
-            case 122: 
+
+            case 122:
                 System.out.println("Nauru");
                 this.pais = "Nauru";
                 this.numCores = 3;
@@ -1995,8 +1997,8 @@ public class Sorteio {
                 this.mGreenwich = "Leste";
                 this.estrela = true;
                 break;
-                
-            case 123: 
+
+            case 123:
                 System.out.println("Nova Zelândia");
                 this.pais = "Nova Zelândia";
                 this.numCores = 3;
@@ -2011,8 +2013,8 @@ public class Sorteio {
                 this.mGreenwich = "Leste";
                 this.estrela = true;
                 break;
-                
-            case 124: 
+
+            case 124:
                 System.out.println("Palau");
                 this.pais = "Palau";
                 this.numCores = 2;
@@ -2026,8 +2028,8 @@ public class Sorteio {
                 this.mGreenwich = "Leste";
                 this.estrela = false;
                 break;
-                
-            case 125: 
+
+            case 125:
                 System.out.println("Papua-Nova Guiné");
                 this.pais = "Papua-Nova Guiné";
                 this.numCores = 4;
@@ -2043,8 +2045,8 @@ public class Sorteio {
                 this.mGreenwich = "Leste";
                 this.estrela = true;
                 break;
-                
-            case 126: 
+
+            case 126:
                 System.out.println("Samoa");
                 this.pais = "Samoa";
                 this.numCores = 3;
@@ -2059,8 +2061,8 @@ public class Sorteio {
                 this.mGreenwich = "Oeste";
                 this.estrela = true;
                 break;
-                
-            case 127: 
+
+            case 127:
                 System.out.println("Tonga");
                 this.pais = "Tonga";
                 this.numCores = 2;
@@ -2074,8 +2076,8 @@ public class Sorteio {
                 this.mGreenwich = "Oeste";
                 this.estrela = false;
                 break;
-                
-            case 128: 
+
+            case 128:
                 System.out.println("Tuvalu");
                 this.pais = "Tuvalu";
                 this.numCores = 4;
@@ -2091,8 +2093,8 @@ public class Sorteio {
                 this.mGreenwich = "Leste";
                 this.estrela = true;
                 break;
-                
-            case 129: 
+
+            case 129:
                 System.out.println("Vanuatu");
                 this.pais = "Vanuatu";
                 this.numCores = 4;
@@ -2108,9 +2110,9 @@ public class Sorteio {
                 this.mGreenwich = "Leste";
                 this.estrela = false;
                 break;
-            
+
             // Países da África (130-183)
-            case 130: 
+            case 130:
                 System.out.println("África do Sul");
                 this.pais = "África do Sul";
                 this.numCores = 6;
@@ -2128,8 +2130,8 @@ public class Sorteio {
                 this.mGreenwich = "Leste";
                 this.estrela = false;
                 break;
-                
-            case 131: 
+
+            case 131:
                 System.out.println("Angola");
                 this.pais = "Angola";
                 this.numCores = 3;
@@ -2144,8 +2146,8 @@ public class Sorteio {
                 this.mGreenwich = "Leste";
                 this.estrela = true;
                 break;
-                
-            case 132: 
+
+            case 132:
                 System.out.println("Argélia");
                 this.pais = "Argélia";
                 this.numCores = 3;
@@ -2160,8 +2162,8 @@ public class Sorteio {
                 this.mGreenwich = "Cortado";
                 this.estrela = true;
                 break;
-                
-            case 133: 
+
+            case 133:
                 System.out.println("Benin");
                 this.pais = "Benin";
                 this.numCores = 3;
@@ -2176,8 +2178,8 @@ public class Sorteio {
                 this.mGreenwich = "Leste";
                 this.estrela = false;
                 break;
-                
-            case 134: 
+
+            case 134:
                 System.out.println("Botsuana");
                 this.pais = "Botsuana";
                 this.numCores = 3;
@@ -2192,8 +2194,8 @@ public class Sorteio {
                 this.mGreenwich = "Leste";
                 this.estrela = false;
                 break;
-                
-            case 135: 
+
+            case 135:
                 System.out.println("Burkina Faso");
                 this.pais = "Burkina Faso";
                 this.numCores = 3;
@@ -2208,8 +2210,8 @@ public class Sorteio {
                 this.mGreenwich = "Cortado";
                 this.estrela = true;
                 break;
-                
-            case 136: 
+
+            case 136:
                 System.out.println("Burundi");
                 this.pais = "Burundi";
                 this.numCores = 3;
@@ -2224,8 +2226,8 @@ public class Sorteio {
                 this.mGreenwich = "Leste";
                 this.estrela = true;
                 break;
-                
-            case 137: 
+
+            case 137:
                 System.out.println("Cabo Verde");
                 this.pais = "Cabo Verde";
                 this.numCores = 4;
@@ -2241,8 +2243,8 @@ public class Sorteio {
                 this.mGreenwich = "Oeste";
                 this.estrela = true;
                 break;
-               
-            case 138: 
+
+            case 138:
                 System.out.println("Camarões");
                 this.pais = "Camarões";
                 this.numCores = 3;
@@ -2257,8 +2259,8 @@ public class Sorteio {
                 this.mGreenwich = "Leste";
                 this.estrela = true;
                 break;
-                
-            case 139: 
+
+            case 139:
                 System.out.println("Chade");
                 this.pais = "Chade";
                 this.numCores = 3;
@@ -2273,8 +2275,8 @@ public class Sorteio {
                 this.mGreenwich = "Leste";
                 this.estrela = false;
                 break;
-                
-            case 140: 
+
+            case 140:
                 System.out.println("Comores");
                 this.pais = "Comores";
                 this.numCores = 5;
@@ -2291,8 +2293,8 @@ public class Sorteio {
                 this.mGreenwich = "Leste";
                 this.estrela = true;
                 break;
-                
-            case 141: 
+
+            case 141:
                 System.out.println("Costa do Marfim");
                 this.pais = "Costa do Marfim";
                 this.numCores = 3;
@@ -2307,8 +2309,8 @@ public class Sorteio {
                 this.mGreenwich = "Oeste";
                 this.estrela = false;
                 break;
-                
-            case 142: 
+
+            case 142:
                 System.out.println("Djibouti");
                 this.pais = "Djibouti";
                 this.numCores = 4;
@@ -2324,8 +2326,8 @@ public class Sorteio {
                 this.mGreenwich = "Leste";
                 this.estrela = true;
                 break;
-                
-            case 143: 
+
+            case 143:
                 System.out.println("Egito");
                 this.pais = "Egito";
                 this.numCores = 4;
@@ -2341,8 +2343,8 @@ public class Sorteio {
                 this.mGreenwich = "Leste";
                 this.estrela = false;
                 break;
-            
-            case 144: 
+
+            case 144:
                 System.out.println("Eritréia");
                 this.pais = "Eritréia";
                 this.numCores = 4;
@@ -2358,8 +2360,8 @@ public class Sorteio {
                 this.mGreenwich = "Leste";
                 this.estrela = false;
                 break;
-                
-            case 145: 
+
+            case 145:
                 System.out.println("Etiópia");
                 this.pais = "Etiópia";
                 this.numCores = 4;
@@ -2375,8 +2377,8 @@ public class Sorteio {
                 this.mGreenwich = "Leste";
                 this.estrela = true;
                 break;
-                
-            case 146: 
+
+            case 146:
                 System.out.println("Gabão");
                 this.pais = "Gabão";
                 this.numCores = 3;
@@ -2391,8 +2393,8 @@ public class Sorteio {
                 this.mGreenwich = "Leste";
                 this.estrela = false;
                 break;
-                
-            case 147: 
+
+            case 147:
                 System.out.println("Gâmbia");
                 this.pais = "Gâmbia";
                 this.numCores = 4;
@@ -2408,8 +2410,8 @@ public class Sorteio {
                 this.mGreenwich = "Oeste";
                 this.estrela = false;
                 break;
-                
-            case 148: 
+
+            case 148:
                 System.out.println("Gana");
                 this.pais = "Gana";
                 this.numCores = 4;
@@ -2425,8 +2427,8 @@ public class Sorteio {
                 this.mGreenwich = "Cortado";
                 this.estrela = true;
                 break;
-            
-            case 149: 
+
+            case 149:
                 System.out.println("Guiné");
                 this.pais = "Guiné";
                 this.numCores = 3;
@@ -2441,8 +2443,8 @@ public class Sorteio {
                 this.mGreenwich = "Oeste";
                 this.estrela = false;
                 break;
-            
-            case 150: 
+
+            case 150:
                 System.out.println("Guiné Equatorial");
                 this.pais = "Guiné Equatorial";
                 this.numCores = 5;
@@ -2459,7 +2461,7 @@ public class Sorteio {
                 this.mGreenwich = "Leste";
                 this.estrela = false;
                 break;
-            
+
             case 151:
                 System.out.println("Guiné-Bissau");
                 this.pais = "Guiné-Bissau";
@@ -2476,8 +2478,8 @@ public class Sorteio {
                 this.mGreenwich = "Oeste";
                 this.estrela = true;
                 break;
-            
-            case 152: 
+
+            case 152:
                 System.out.println("Lesoto");
                 this.pais = "Lesoto";
                 this.numCores = 4;
@@ -2493,8 +2495,8 @@ public class Sorteio {
                 this.mGreenwich = "Leste";
                 this.estrela = false;
                 break;
-            
-            case 153: 
+
+            case 153:
                 System.out.println("Libéria");
                 this.pais = "Libéria";
                 this.numCores = 3;
@@ -2509,8 +2511,8 @@ public class Sorteio {
                 this.mGreenwich = "Oeste";
                 this.estrela = true;
                 break;
-            
-            case 154: 
+
+            case 154:
                 System.out.println("Líbia");
                 this.pais = "Líbia";
                 this.numCores = 4;
@@ -2526,8 +2528,8 @@ public class Sorteio {
                 this.mGreenwich = "Leste";
                 this.estrela = true;
                 break;
-            
-            case 155: 
+
+            case 155:
                 System.out.println("Madagascar");
                 this.pais = "Madagascar";
                 this.numCores = 3;
@@ -2542,8 +2544,8 @@ public class Sorteio {
                 this.mGreenwich = "Leste";
                 this.estrela = false;
                 break;
-            
-            case 156: 
+
+            case 156:
                 System.out.println("Malawi");
                 this.pais = "Malawi";
                 this.numCores = 3;
@@ -2558,8 +2560,8 @@ public class Sorteio {
                 this.mGreenwich = "Leste";
                 this.estrela = true;
                 break;
-            
-            case 157: 
+
+            case 157:
                 System.out.println("Mali");
                 this.pais = "Mali";
                 this.numCores = 3;
@@ -2574,8 +2576,8 @@ public class Sorteio {
                 this.mGreenwich = "Cortado";
                 this.estrela = false;
                 break;
-            
-            case 158: 
+
+            case 158:
                 System.out.println("Marrocos");
                 this.pais = "Marrocos";
                 this.numCores = 2;
@@ -2589,8 +2591,8 @@ public class Sorteio {
                 this.mGreenwich = "Oeste";
                 this.estrela = true;
                 break;
-            
-            case 159: 
+
+            case 159:
                 System.out.println("Maurício");
                 this.pais = "Maurício";
                 this.numCores = 4;
@@ -2606,8 +2608,8 @@ public class Sorteio {
                 this.mGreenwich = "Leste";
                 this.estrela = false;
                 break;
-            
-            case 160: 
+
+            case 160:
                 System.out.println("Mauritânia");
                 this.pais = "Mauritânia";
                 this.numCores = 2;
@@ -2621,8 +2623,8 @@ public class Sorteio {
                 this.mGreenwich = "Oeste";
                 this.estrela = true;
                 break;
-            
-            case 161: 
+
+            case 161:
                 System.out.println("Moçambique");
                 this.pais = "Moçambique";
                 this.numCores = 5;
@@ -2639,8 +2641,8 @@ public class Sorteio {
                 this.mGreenwich = "Leste";
                 this.estrela = true;
                 break;
-            
-            case 162: 
+
+            case 162:
                 System.out.println("Namíbia");
                 this.pais = "Namíbia";
                 this.numCores = 5;
@@ -2657,8 +2659,8 @@ public class Sorteio {
                 this.mGreenwich = "Leste";
                 this.estrela = true;
                 break;
-            
-            case 163: 
+
+            case 163:
                 System.out.println("Níger");
                 this.pais = "Níger";
                 this.numCores = 3;
@@ -2673,8 +2675,8 @@ public class Sorteio {
                 this.mGreenwich = "Leste";
                 this.estrela = false;
                 break;
-            
-            case 164: 
+
+            case 164:
                 System.out.println("Nigéria");
                 this.pais = "Nigéria";
                 this.numCores = 2;
@@ -2688,8 +2690,8 @@ public class Sorteio {
                 this.mGreenwich = "Leste";
                 this.estrela = false;
                 break;
-            
-            case 165: 
+
+            case 165:
                 System.out.println("Quênia");
                 this.pais = "Quênia";
                 this.numCores = 4;
@@ -2705,8 +2707,8 @@ public class Sorteio {
                 this.mGreenwich = "Leste";
                 this.estrela = false;
                 break;
-            
-            case 166: 
+
+            case 166:
                 System.out.println("Congo");
                 this.pais = "Congo";
                 this.numCores = 3;
@@ -2721,8 +2723,8 @@ public class Sorteio {
                 this.mGreenwich = "Leste";
                 this.estrela = false;
                 break;
-               
-            case 167: 
+
+            case 167:
                 System.out.println("República Centro-Africana");
                 this.pais = "República Centro-Africana";
                 this.numCores = 5;
@@ -2739,8 +2741,8 @@ public class Sorteio {
                 this.mGreenwich = "Leste";
                 this.estrela = true;
                 break;
-            
-            case 168: 
+
+            case 168:
                 System.out.println("República Democratica do Congo");
                 this.pais = "República Democratica do Congo";
                 this.numCores = 3;
@@ -2755,8 +2757,8 @@ public class Sorteio {
                 this.mGreenwich = "Leste";
                 this.estrela = true;
                 break;
-            
-            case 169: 
+
+            case 169:
                 System.out.println("Ruanda");
                 this.pais = "Ruanda";
                 this.numCores = 3;
@@ -2771,8 +2773,8 @@ public class Sorteio {
                 this.mGreenwich = "Leste";
                 this.estrela = true;
                 break;
-            
-            case 170: 
+
+            case 170:
                 System.out.println("São Tomé e Príncipe");
                 this.pais = "São Tomé e Príncipe";
                 this.numCores = 4;
@@ -2788,8 +2790,8 @@ public class Sorteio {
                 this.mGreenwich = "Leste";
                 this.estrela = true;
                 break;
-              
-            case 171: 
+
+            case 171:
                 System.out.println("Senegal");
                 this.pais = "Senegal";
                 this.numCores = 3;
@@ -2804,8 +2806,8 @@ public class Sorteio {
                 this.mGreenwich = "Oeste";
                 this.estrela = true;
                 break;
-            
-            case 172: 
+
+            case 172:
                 System.out.println("Serra Leoa");
                 this.pais = "Serra Leoa";
                 this.numCores = 3;
@@ -2820,8 +2822,8 @@ public class Sorteio {
                 this.mGreenwich = "Oeste";
                 this.estrela = false;
                 break;
-                
-            case 173: 
+
+            case 173:
                 System.out.println("Seychelles");
                 this.pais = "Seychelles";
                 this.numCores = 5;
@@ -2837,9 +2839,9 @@ public class Sorteio {
                 this.hEquador = "Abaixo";
                 this.mGreenwich = "Leste";
                 this.estrela = false;
-                break;    
-            
-            case 174: 
+                break;
+
+            case 174:
                 System.out.println("Somália");
                 this.pais = "Somália";
                 this.numCores = 2;
@@ -2852,9 +2854,9 @@ public class Sorteio {
                 this.hEquador = "Cortado";
                 this.mGreenwich = "Leste";
                 this.estrela = true;
-                break; 
-                    
-            case 175: 
+                break;
+
+            case 175:
                 System.out.println("Suazilândia");
                 this.pais = "Suazilândia";
                 this.numCores = 5;
@@ -2870,9 +2872,9 @@ public class Sorteio {
                 this.hEquador = "Abaixo";
                 this.mGreenwich = "Leste";
                 this.estrela = false;
-                break; 
-                    
-            case 176: 
+                break;
+
+            case 176:
                 System.out.println("Sudão do Sul");
                 this.pais = "Sudão do Sul";
                 this.numCores = 6;
@@ -2889,8 +2891,8 @@ public class Sorteio {
                 this.hEquador = "Acima";
                 this.mGreenwich = "Leste";
                 this.estrela = true;
-                break;    
-            
+                break;
+
             case 177:
                 System.out.println("Sudão");
                 this.pais = "Sudão";
@@ -2906,8 +2908,8 @@ public class Sorteio {
                 this.hEquador = "Acima";
                 this.mGreenwich = "Leste";
                 this.estrela = false;
-                break; 
-                
+                break;
+
             case 178:
                 System.out.println("Tanzânia");
                 this.pais = "Tanzânia";
@@ -2923,8 +2925,8 @@ public class Sorteio {
                 this.hEquador = "Abaixo";
                 this.mGreenwich = "Leste";
                 this.estrela = false;
-                break; 
-                
+                break;
+
             case 179:
                 System.out.println("Togo");
                 this.pais = "Togo";
@@ -2940,8 +2942,8 @@ public class Sorteio {
                 this.hEquador = "Acima";
                 this.mGreenwich = "Leste";
                 this.estrela = true;
-                break; 
-                
+                break;
+
             case 180:
                 System.out.println("Tunísia");
                 this.pais = "Tunísia";
@@ -2955,8 +2957,8 @@ public class Sorteio {
                 this.hEquador = "Acima";
                 this.mGreenwich = "Leste";
                 this.estrela = true;
-                break; 
-                
+                break;
+
             case 181:
                 System.out.println("Uganda");
                 this.pais = "Uganda";
@@ -2972,8 +2974,8 @@ public class Sorteio {
                 this.hEquador = "Cortado";
                 this.mGreenwich = "Leste";
                 this.estrela = false;
-                break; 
-                
+                break;
+
             case 182:
                 System.out.println("Zâmbia");
                 this.pais = "Zâmbia";
@@ -2989,8 +2991,8 @@ public class Sorteio {
                 this.hEquador = "Abaixo";
                 this.mGreenwich = "Leste";
                 this.estrela = false;
-                break; 
-                
+                break;
+
             case 183:
                 System.out.println("Zimbábue");
                 this.pais = "Zimbábue";
@@ -3007,9 +3009,10 @@ public class Sorteio {
                 this.hEquador = "Abaixo";
                 this.mGreenwich = "Leste";
                 this.estrela = true;
-                break; 
-                
+                break;
+
         }
+        this.link = BuildLinkName(pais);
     }
 
     public String getPais() {
@@ -3083,7 +3086,18 @@ public class Sorteio {
     public void setEstrela(boolean estrela) {
         this.estrela = estrela;
     }
-    
-    
 
+    public String getLink() {
+        return link;
+    }
+
+    public void setLink(String link) {
+        this.link = link;
+    }
+    
+    private String BuildLinkName(String pais) {
+        pais = pais.toLowerCase();
+        pais = pais.replace('á', 'a').replace('é', 'e').replace('í', 'i').replace('ó', 'o').replace('ú', 'u').replace('â', 'a').replace('ê', 'e').replace('ô', 'o').replace('ã', 'a').replace('õ', 'o').replace(' ', '-');
+        return "https://brasilescola.uol.com.br/geografia/" + pais + ".htm";
+    }
 }

@@ -4,3 +4,9 @@ Sequência de Vitórias: 5
 Países acertados: Bahamas - Botsuana - Japão - Suriname - Polônia
 Derrota em: Tonga
 ---------------------------------------------------------------------------------------------------------------------------------
+Nome: João
+Pontuação: 65
+Sequência de Vitórias: 1
+Países acertados: Suécia
+Derrota em: Benin
+---------------------------------------------------------------------------------------------------------------------------------

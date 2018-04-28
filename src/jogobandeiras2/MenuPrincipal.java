@@ -36,6 +36,7 @@ public class MenuPrincipal extends javax.swing.JFrame {
         btnSinglePlayer = new javax.swing.JButton();
         btnMultiPlayer = new javax.swing.JButton();
         btnHistórico = new javax.swing.JButton();
+        btnConteudo = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setTitle("Jogo das Bandeiras 2");
@@ -93,6 +94,16 @@ public class MenuPrincipal extends javax.swing.JFrame {
             }
         });
 
+        btnConteudo.setBackground(new java.awt.Color(82, 164, 82));
+        btnConteudo.setFont(new java.awt.Font("Cambria Math", 0, 18)); // NOI18N
+        btnConteudo.setForeground(new java.awt.Color(255, 255, 255));
+        btnConteudo.setText("Conteúdo");
+        btnConteudo.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnConteudoActionPerformed(evt);
+            }
+        });
+
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
         jPanel1.setLayout(jPanel1Layout);
         jPanel1Layout.setHorizontalGroup(
@@ -100,6 +111,7 @@ public class MenuPrincipal extends javax.swing.JFrame {
             .addGroup(jPanel1Layout.createSequentialGroup()
                 .addGap(118, 118, 118)
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(btnConteudo, javax.swing.GroupLayout.PREFERRED_SIZE, 403, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(btnSinglePlayer, javax.swing.GroupLayout.PREFERRED_SIZE, 403, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(btnCréditos, javax.swing.GroupLayout.PREFERRED_SIZE, 403, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addGroup(jPanel1Layout.createSequentialGroup()
@@ -123,9 +135,11 @@ public class MenuPrincipal extends javax.swing.JFrame {
                 .addComponent(btnMultiPlayer, javax.swing.GroupLayout.PREFERRED_SIZE, 60, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(18, 18, 18)
                 .addComponent(btnHistórico, javax.swing.GroupLayout.PREFERRED_SIZE, 60, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(18, 18, 18)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addComponent(btnCréditos, javax.swing.GroupLayout.PREFERRED_SIZE, 60, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(89, Short.MAX_VALUE))
+                .addGap(13, 13, 13)
+                .addComponent(btnConteudo, javax.swing.GroupLayout.PREFERRED_SIZE, 60, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(23, Short.MAX_VALUE))
         );
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
@@ -168,6 +182,13 @@ public class MenuPrincipal extends javax.swing.JFrame {
         hp.setVisible(true);
     }//GEN-LAST:event_btnHistóricoActionPerformed
 
+    private void btnConteudoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnConteudoActionPerformed
+        ConteudoPaises cp = new ConteudoPaises();
+        cp.setLocationRelativeTo(null);
+        cp.setDefaultCloseOperation(JFrame.HIDE_ON_CLOSE);
+        cp.setVisible(true);
+    }//GEN-LAST:event_btnConteudoActionPerformed
+
     /**
      * @param args the command line arguments
      */
@@ -204,6 +225,7 @@ public class MenuPrincipal extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JButton btnConteudo;
     private javax.swing.JButton btnCréditos;
     private javax.swing.JButton btnHistórico;
     private javax.swing.JButton btnMultiPlayer;
